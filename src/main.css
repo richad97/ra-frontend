@@ -1,0 +1,70 @@
+* {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mukta", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+nav ul .mid-nav {
+  display: flex;
+}
+
+header {
+  display: flex;
+  margin: 0 5rem;
+}
+.header-left,
+.header-right {
+  width: 50%;
+  margin: 0 2rem;
+}
+
+.subsec-1 {
+  display: flex;
+  justify-content: center;
+}
+.subsec-1 .wrap {
+  display: flex;
+}
+
+section h2 {
+  text-align: center;
+}
+section .product-comp-wrap {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+section .product-comp {
+  margin: 0 1rem;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+}
+footer ul li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+footer .cr-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+footer .cr-wrap div {
+  display: flex;
+}
+
+.time-wrap {
+  display: flex;
+  justify-content: space-around;
+}
